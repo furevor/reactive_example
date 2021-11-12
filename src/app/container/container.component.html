@@ -1,0 +1,7 @@
+<p>container works!</p>
+
+<form [formGroup]="entityForm">
+    <input type="text" formControlName="entityId" />
+    <input type="text" formControlName="additionalParam" />
+</form>
+<app-chart [data]="resultData$"></app-chart>
